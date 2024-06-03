@@ -22,8 +22,8 @@ class _ExplorePageWidgetState extends State<ExplorePageWidget> {
     super.initState();
     _model = createModel(context, () => ExplorePageModel());
 
-    _model.textController ??= TextEditingController();
-    _model.textFieldFocusNode ??= FocusNode();
+    _model.searchBarTextController ??= TextEditingController();
+    _model.searchBarFocusNode ??= FocusNode();
 
     WidgetsBinding.instance.addPostFrameCallback((_) => setState(() {}));
   }
@@ -70,10 +70,10 @@ class _ExplorePageWidgetState extends State<ExplorePageWidget> {
             Padding(
               padding: const EdgeInsetsDirectional.fromSTEB(8.0, 0.0, 8.0, 0.0),
               child: TextFormField(
-                controller: _model.textController,
-                focusNode: _model.textFieldFocusNode,
+                controller: _model.searchBarTextController,
+                focusNode: _model.searchBarFocusNode,
                 onChanged: (_) => EasyDebounce.debounce(
-                  '_model.textController',
+                  '_model.searchBarTextController',
                   const Duration(milliseconds: 2000),
                   () => setState(() {}),
                 ),
@@ -122,10 +122,10 @@ class _ExplorePageWidgetState extends State<ExplorePageWidget> {
                   prefixIcon: const Icon(
                     Icons.search_outlined,
                   ),
-                  suffixIcon: _model.textController!.text.isNotEmpty
+                  suffixIcon: _model.searchBarTextController!.text.isNotEmpty
                       ? InkWell(
                           onTap: () async {
-                            _model.textController?.clear();
+                            _model.searchBarTextController?.clear();
                             setState(() {});
                           },
                           child: const Icon(
@@ -140,7 +140,8 @@ class _ExplorePageWidgetState extends State<ExplorePageWidget> {
                       letterSpacing: 0.0,
                     ),
                 textAlign: TextAlign.start,
-                validator: _model.textControllerValidator.asValidator(context),
+                validator: _model.searchBarTextControllerValidator
+                    .asValidator(context),
               ),
             ),
           ],

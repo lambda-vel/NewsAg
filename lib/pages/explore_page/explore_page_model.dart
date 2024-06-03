@@ -6,10 +6,10 @@ class ExplorePageModel extends FlutterFlowModel<ExplorePageWidget> {
   ///  State fields for stateful widgets in this page.
 
   final unfocusNode = FocusNode();
-  // State field(s) for TextField widget.
-  FocusNode? textFieldFocusNode;
-  TextEditingController? textController;
-  String? Function(BuildContext, String?)? textControllerValidator;
+  // State field(s) for SearchBar widget.
+  FocusNode? searchBarFocusNode;
+  TextEditingController? searchBarTextController;
+  String? Function(BuildContext, String?)? searchBarTextControllerValidator;
 
   @override
   void initState(BuildContext context) {}
@@ -17,7 +17,7 @@ class ExplorePageModel extends FlutterFlowModel<ExplorePageWidget> {
   @override
   void dispose() {
     unfocusNode.dispose();
-    textFieldFocusNode?.dispose();
-    textController?.dispose();
+    searchBarFocusNode?.dispose();
+    searchBarTextController?.dispose();
   }
 }

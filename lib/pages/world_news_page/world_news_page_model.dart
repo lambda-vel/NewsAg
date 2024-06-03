@@ -46,15 +46,16 @@ class WorldNewsPageModel extends FlutterFlowModel<WorldNewsPageWidget> {
 
   void listViewWorldNewsBNPage(ApiPagingParams nextPageMarker) =>
       listViewApiCall!(nextPageMarker).then((listViewWorldNewsBNResponse) {
-        final pageItems = (WorldNewsBNCall.worldNewsFeedBN(
+        final pageItems = (WorldNewsBNCall.worldNewsTitleBN(
                   listViewWorldNewsBNResponse.jsonBody,
-                ) ??
+                )! ??
                 [])
+            .take(20 - nextPageMarker.numItems)
             .toList() as List;
         final newNumItems = nextPageMarker.numItems + pageItems.length;
         listViewPagingController?.appendPage(
           pageItems,
-          (pageItems.isNotEmpty)
+          (pageItems.isNotEmpty) && newNumItems < 20
               ? ApiPagingParams(
                   nextPageNumber: nextPageMarker.nextPageNumber + 1,
                   numItems: newNumItems,
