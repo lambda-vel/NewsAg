@@ -200,6 +200,51 @@ class WorldNewsBNCall {
           .toList();
 }
 
+class TestCall {
+  static Future<ApiCallResponse> call({
+    String? apiKey = 'f2bw7g5awecnub4w8bfhcjgp8hgd9i28byaajhp1',
+    String? rssUrl =
+        'https%3A%2F%2Fnews.google.com%2Frss%2Ftopics%2FCAAqJggKIiBDQkFTRWdvSUwyMHZNRGx1YlY4U0FtVnVHZ0pWVXlnQVAB%3Fhl%3Den-US%26gl%3DUS%26ceid%3DUS%253Aen',
+  }) async {
+    return ApiManager.instance.makeApiCall(
+      callName: 'Test',
+      apiUrl:
+          'https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fnews.google.com%2Frss%2Ftopics%2FCAAqJggKIiBDQkFTRWdvSUwyMHZNRGx1YlY4U0FtVnVHZ0pWVXlnQVAB%3Fhl%3Den-US%26gl%3DUS%26ceid%3DUS%253Aen&api_key=f2bw7g5awecnub4w8bfhcjgp8hgd9i28byaajhp1&count=10',
+      callType: ApiCallType.GET,
+      headers: {},
+      params: {},
+      returnBody: true,
+      encodeBodyUtf8: false,
+      decodeUtf8: false,
+      cache: false,
+      alwaysAllowBody: false,
+    );
+  }
+
+  static dynamic feed(dynamic response) => getJsonField(
+        response,
+        r'''$.feed''',
+      );
+  static List<String>? newsTitle(dynamic response) => (getJsonField(
+        response,
+        r'''$.items[:].title''',
+        true,
+      ) as List?)
+          ?.withoutNulls
+          .map((x) => castToType<String>(x))
+          .withoutNulls
+          .toList();
+  static List<String>? newsLink(dynamic response) => (getJsonField(
+        response,
+        r'''$.items[:].link''',
+        true,
+      ) as List?)
+          ?.withoutNulls
+          .map((x) => castToType<String>(x))
+          .withoutNulls
+          .toList();
+}
+
 class ApiPagingParams {
   int nextPageNumber = 0;
   int numItems = 0;
