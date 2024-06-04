@@ -85,7 +85,7 @@ class _WorldNewsPageWidgetState extends State<WorldNewsPageWidget> {
                   builder: (context) {
                     final posts = TestCall.feed(
                       listViewTestResponse.jsonBody,
-                    ).toList().take(15).toList();
+                    ).toList().take(10).toList();
                     return RefreshIndicator(
                       onRefresh: () async {
                         // Pull to Refresh
