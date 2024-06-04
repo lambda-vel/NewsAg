@@ -216,10 +216,7 @@ spirv-cross
 txt
 vulkan
 vulkan-headers
-<<<<<<< Updated upstream
-=======
 vulkan-utility-libraries
->>>>>>> Stashed changes
 vulkan-validation-layers
 wuffs
 
@@ -607,8 +604,6 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 --------------------------------------------------------------------------------
 accessibility
 
-<<<<<<< Updated upstream
-=======
 Copyright 2019 The Chromium Authors. All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
@@ -639,7 +634,6 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 --------------------------------------------------------------------------------
 accessibility
 
->>>>>>> Stashed changes
 Copyright 2020 The Chromium Authors. All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
@@ -861,40 +855,6 @@ ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 --------------------------------------------------------------------------------
 accessibility
-<<<<<<< Updated upstream
-fuchsia_sdk
-
-Copyright 2019 The Chromium Authors. All rights reserved.
-
-Redistribution and use in source and binary forms, with or without
-modification, are permitted provided that the following conditions are
-met:
-
-   * Redistributions of source code must retain the above copyright
-notice, this list of conditions and the following disclaimer.
-   * Redistributions in binary form must reproduce the above
-copyright notice, this list of conditions and the following disclaimer
-in the documentation and/or other materials provided with the
-distribution.
-   * Neither the name of Google Inc. nor the names of its
-contributors may be used to endorse or promote products derived from
-this software without specific prior written permission.
-
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
-"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
-LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
-A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
-OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
-SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
-LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
-DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
-THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
-(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
-OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
---------------------------------------------------------------------------------
-accessibility
-=======
->>>>>>> Stashed changes
 skia
 
 Copyright 2015 The Chromium Authors. All rights reserved.
@@ -3820,8 +3780,6 @@ CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 --------------------------------------------------------------------------------
 boringssl
 
-<<<<<<< Updated upstream
-=======
 Copyright (c) 2022, Robert Nagy <robert.nagy@gmail.com>
 
 Permission to use, copy, modify, and/or distribute this software for any
@@ -3838,7 +3796,6 @@ CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 --------------------------------------------------------------------------------
 boringssl
 
->>>>>>> Stashed changes
 Copyright (c) 2023, Google Inc.
 
 Permission to use, copy, modify, and/or distribute this software for any
@@ -4007,8 +3964,6 @@ https://www.openssl.org/source/license.html
 --------------------------------------------------------------------------------
 boringssl
 
-<<<<<<< Updated upstream
-=======
 Copyright 2010 The Chromium Authors
 Use of this source code is governed by a BSD-style license that can be
 found in the LICENSE file
@@ -4027,7 +3982,6 @@ found in the LICENSE file
 --------------------------------------------------------------------------------
 boringssl
 
->>>>>>> Stashed changes
 Copyright 2012-2016 The OpenSSL Project Authors. All Rights Reserved.
 
 Licensed under the OpenSSL license (the "License").  You may not use
@@ -4047,15 +4001,12 @@ https://www.openssl.org/source/license.html
 --------------------------------------------------------------------------------
 boringssl
 
-<<<<<<< Updated upstream
-=======
 Copyright 2014 The Chromium Authors
 Use of this source code is governed by a BSD-style license that can be
 found in the LICENSE file
 --------------------------------------------------------------------------------
 boringssl
 
->>>>>>> Stashed changes
 Copyright 2014-2016 The OpenSSL Project Authors. All Rights Reserved.
 
 Licensed under the OpenSSL license (the "License").  You may not use
@@ -4094,15 +4045,12 @@ https://www.openssl.org/source/license.html
 --------------------------------------------------------------------------------
 boringssl
 
-<<<<<<< Updated upstream
-=======
 Copyright 2015 The Chromium Authors
 Use of this source code is governed by a BSD-style license that can be
 found in the LICENSE file
 --------------------------------------------------------------------------------
 boringssl
 
->>>>>>> Stashed changes
 Copyright 2015-2016 The OpenSSL Project Authors. All Rights Reserved.
 
 Licensed under the OpenSSL license (the "License").  You may not use
@@ -4128,8 +4076,6 @@ CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 --------------------------------------------------------------------------------
 boringssl
 
-<<<<<<< Updated upstream
-=======
 Copyright 2016 The Chromium Authors
 Use of this source code is governed by a BSD-style license that can be
 found in the LICENSE file
@@ -4160,7 +4106,6 @@ found in the LICENSE file
 --------------------------------------------------------------------------------
 boringssl
 
->>>>>>> Stashed changes
 Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
 
 Permission to use, copy, modify, and/or distribute this software for any
@@ -5321,8 +5266,6 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 --------------------------------------------------------------------------------
 dart
 
-<<<<<<< Updated upstream
-=======
 Copyright (c) 2024, the Dart project authors.  Please see the AUTHORS file
 for details. All rights reserved.
 
@@ -5383,7 +5326,6 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 --------------------------------------------------------------------------------
 dart
 
->>>>>>> Stashed changes
 Copyright 2012, the Dart project authors.
 
 Redistribution and use in source and binary forms, with or without
@@ -6864,11 +6806,7 @@ Exhibit B - "Incompatible With Secondary Licenses" Notice
   This Source Code Form is "Incompatible With Secondary Licenses", as
   defined by the Mozilla Public License, v. 2.0.
 
-<<<<<<< Updated upstream
-You may obtain a copy of this library's Source Code Form from: https://dart.googlesource.com/sdk/+/7f2523c2fa9a74ef3cbe21ae885458fc1fb99d1b
-=======
 You may obtain a copy of this library's Source Code Form from: https://dart.googlesource.com/sdk/+/bb65648e20e29abc47acf3dd984518d29fd625c3
->>>>>>> Stashed changes
 /third_party/fallback_root_certificates/
 
 --------------------------------------------------------------------------------
@@ -7298,10 +7236,7 @@ SOFTWARE.
 
 --------------------------------------------------------------------------------
 flutter_lints
-<<<<<<< Updated upstream
-=======
 flutter_shaders
->>>>>>> Stashed changes
 go_router
 path_provider
 path_provider_android
@@ -8259,8 +8194,6 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 --------------------------------------------------------------------------------
 fuchsia_sdk
 
-<<<<<<< Updated upstream
-=======
 Copyright 2024 The Fuchsia Authors. All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
@@ -8288,7 +8221,6 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 --------------------------------------------------------------------------------
 fuchsia_sdk
 
->>>>>>> Stashed changes
 musl as a whole is licensed under the following standard MIT license:
 
 
@@ -9056,48 +8988,6 @@ glslang
 Copyright (C) 2002-2005  3Dlabs Inc. Ltd.
 Copyright (C) 2012-2013 LunarG, Inc.
 Copyright (C) 2017 ARM Limited.
-<<<<<<< Updated upstream
-Copyright (C) 2015-2020 Google, Inc.
-Modifications Copyright (C) 2020 Advanced Micro Devices, Inc. All rights reserved.
-
-All rights reserved.
-
-Redistribution and use in source and binary forms, with or without
-modification, are permitted provided that the following conditions
-are met:
-
-   Redistributions of source code must retain the above copyright
-   notice, this list of conditions and the following disclaimer.
-
-   Redistributions in binary form must reproduce the above
-   copyright notice, this list of conditions and the following
-   disclaimer in the documentation and/or other materials provided
-   with the distribution.
-
-   Neither the name of 3Dlabs Inc. Ltd. nor the names of its
-   contributors may be used to endorse or promote products derived
-   from this software without specific prior written permission.
-
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
-"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
-LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS
-FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE
-COPYRIGHT HOLDERS OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
-INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
-BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
-LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
-CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
-LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN
-ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
-POSSIBILITY OF SUCH DAMAGE.
---------------------------------------------------------------------------------
-glslang
-
-Copyright (C) 2002-2005  3Dlabs Inc. Ltd.
-Copyright (C) 2012-2013 LunarG, Inc.
-Copyright (C) 2017 ARM Limited.
-=======
->>>>>>> Stashed changes
 Copyright (C) 2018-2020 Google, Inc.
 
 All rights reserved.
@@ -9172,8 +9062,6 @@ POSSIBILITY OF SUCH DAMAGE.
 glslang
 
 Copyright (C) 2002-2005  3Dlabs Inc. Ltd.
-<<<<<<< Updated upstream
-=======
 Copyright (C) 2012-2013 LunarG, Inc.
 Copyright (C) 2017, 2022-2024 Arm Limited.
 Copyright (C) 2015-2018 Google, Inc.
@@ -9252,7 +9140,6 @@ POSSIBILITY OF SUCH DAMAGE.
 glslang
 
 Copyright (C) 2002-2005  3Dlabs Inc. Ltd.
->>>>>>> Stashed changes
 Copyright (C) 2012-2015 LunarG, Inc.
 Copyright (C) 2015-2018 Google, Inc.
 Copyright (C) 2017, 2019 ARM Limited.
@@ -9371,11 +9258,7 @@ glslang
 Copyright (C) 2002-2005  3Dlabs Inc. Ltd.
 Copyright (C) 2012-2016 LunarG, Inc.
 Copyright (C) 2015-2020 Google, Inc.
-<<<<<<< Updated upstream
-Copyright (C) 2017 ARM Limited.
-=======
 Copyright (C) 2017, 2022-2024 Arm Limited.
->>>>>>> Stashed changes
 Modifications Copyright (C) 2020-2021 Advanced Micro Devices, Inc. All rights reserved.
 
 All rights reserved.
@@ -9413,11 +9296,7 @@ glslang
 
 Copyright (C) 2002-2005  3Dlabs Inc. Ltd.
 Copyright (C) 2012-2016 LunarG, Inc.
-<<<<<<< Updated upstream
-Copyright (C) 2017 ARM Limited.
-=======
 Copyright (C) 2017, 2022-2024 Arm Limited.
->>>>>>> Stashed changes
 Modifications Copyright (C) 2020 Advanced Micro Devices, Inc. All rights reserved.
 
 All rights reserved.
@@ -9638,10 +9517,7 @@ Copyright (C) 2002-2005  3Dlabs Inc. Ltd.
 Copyright (C) 2013 LunarG, Inc.
 Copyright (C) 2017 ARM Limited.
 Copyright (C) 2015-2018 Google, Inc.
-<<<<<<< Updated upstream
-=======
 Copyright (c) 2023, Mobica Limited
->>>>>>> Stashed changes
 
 All rights reserved.
 
@@ -10299,10 +10175,7 @@ POSSIBILITY OF SUCH DAMAGE.
 glslang
 
 Copyright (C) 2014-2015 LunarG, Inc.
-<<<<<<< Updated upstream
-=======
 Copyright (C) 2022-2024 Arm Limited.
->>>>>>> Stashed changes
 Modifications Copyright (C) 2020 Advanced Micro Devices, Inc. All rights reserved.
 
 All rights reserved.
@@ -10340,11 +10213,7 @@ glslang
 
 Copyright (C) 2014-2016 LunarG, Inc.
 Copyright (C) 2015-2020 Google, Inc.
-<<<<<<< Updated upstream
-Copyright (C) 2017 ARM Limited.
-=======
 Copyright (C) 2017, 2022-2024 Arm Limited.
->>>>>>> Stashed changes
 Modifications Copyright (C) 2020 Advanced Micro Devices, Inc. All rights reserved.
 
 All rights reserved.
@@ -10736,11 +10605,7 @@ POSSIBILITY OF SUCH DAMAGE.
 glslang
 
 Copyright (C) 2016 Google, Inc.
-<<<<<<< Updated upstream
-Copyright (C) 2019 ARM Limited.
-=======
 Copyright (C) 2019, 2022-2024 Arm Limited.
->>>>>>> Stashed changes
 Modifications Copyright (C) 2020 Advanced Micro Devices, Inc. All rights reserved.
 
 All rights reserved.
@@ -10776,8 +10641,6 @@ POSSIBILITY OF SUCH DAMAGE.
 --------------------------------------------------------------------------------
 glslang
 
-<<<<<<< Updated upstream
-=======
 Copyright (C) 2016 Google, Inc.
 Copyright (C) 2022-2024 Arm Limited.
 
@@ -10814,7 +10677,6 @@ POSSIBILITY OF SUCH DAMAGE.
 --------------------------------------------------------------------------------
 glslang
 
->>>>>>> Stashed changes
 Copyright (C) 2016 LunarG, Inc.
 
 All rights reserved.
@@ -11064,10 +10926,7 @@ glslang
 
 Copyright (C) 2016-2018 Google, Inc.
 Copyright (C) 2016 LunarG, Inc.
-<<<<<<< Updated upstream
-=======
 Copyright (C) 2023 Mobica Limited.
->>>>>>> Stashed changes
 
 All rights reserved.
 
@@ -11279,11 +11138,7 @@ POSSIBILITY OF SUCH DAMAGE.
 --------------------------------------------------------------------------------
 glslang
 
-<<<<<<< Updated upstream
-Copyright (C) 2020 Google, Inc.
-=======
 Copyright (C) 2020 The Khronos Group Inc.
->>>>>>> Stashed changes
 
 All rights reserved.
 
@@ -11299,11 +11154,7 @@ are met:
    disclaimer in the documentation and/or other materials provided
    with the distribution.
 
-<<<<<<< Updated upstream
-   Neither the name of Google, Inc., nor the names of its
-=======
    Neither the name of The Khronos Group Inc. nor the names of its
->>>>>>> Stashed changes
    contributors may be used to endorse or promote products derived
    from this software without specific prior written permission.
 
@@ -11322,11 +11173,7 @@ POSSIBILITY OF SUCH DAMAGE.
 --------------------------------------------------------------------------------
 glslang
 
-<<<<<<< Updated upstream
-Copyright (C) 2020 The Khronos Group Inc.
-=======
 Copyright (C) 2023 LunarG, Inc.
->>>>>>> Stashed changes
 
 All rights reserved.
 
@@ -11342,11 +11189,7 @@ are met:
    disclaimer in the documentation and/or other materials provided
    with the distribution.
 
-<<<<<<< Updated upstream
-   Neither the name of The Khronos Group Inc. nor the names of its
-=======
    Neither the name of 3Dlabs Inc. Ltd. nor the names of its
->>>>>>> Stashed changes
    contributors may be used to endorse or promote products derived
    from this software without specific prior written permission.
 
@@ -11459,10 +11302,7 @@ IN THE MATERIALS.
 glslang
 
 Copyright (c) 2014-2020 The Khronos Group Inc.
-<<<<<<< Updated upstream
-=======
 Copyright (C) 2022-2024 Arm Limited.
->>>>>>> Stashed changes
 Modifications Copyright (C) 2020 Advanced Micro Devices, Inc. All rights reserved.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -11595,8 +11435,6 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 --------------------------------------------------------------------------------
 glslang
 
-<<<<<<< Updated upstream
-=======
 Copyright (c) 2021 The Khronos Group Inc.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -11623,7 +11461,6 @@ IN THE MATERIALS.
 --------------------------------------------------------------------------------
 glslang
 
->>>>>>> Stashed changes
 Copyright (c) 2022 ARM Limited
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -34477,8 +34314,6 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 --------------------------------------------------------------------------------
 skia
 
-<<<<<<< Updated upstream
-=======
 Copyright 2024 Google Inc.
 
 Redistribution and use in source and binary forms, with or without
@@ -34511,7 +34346,6 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 --------------------------------------------------------------------------------
 skia
 
->>>>>>> Stashed changes
 Copyright 2024 Google LLC
 
 Redistribution and use in source and binary forms, with or without
@@ -34542,8 +34376,6 @@ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 --------------------------------------------------------------------------------
-<<<<<<< Updated upstream
-=======
 skia
 
 Copyright 2024 The Android Open Source Project
@@ -34576,7 +34408,6 @@ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 --------------------------------------------------------------------------------
->>>>>>> Stashed changes
 sliver_tools
 
 The MIT License (MIT)
@@ -34888,9 +34719,6 @@ freely, subject to the following restrictions:
 --------------------------------------------------------------------------------
 vulkan-validation-layers
 
-<<<<<<< Updated upstream
-Copyright (C) 2012-2020 Yann Collet
-=======
 Apache License
 Version 2.0, January 2004
 http://www.apache.org/licenses/
@@ -35118,7 +34946,6 @@ THE SOFTWARE.
 vulkan-validation-layers
 
 Copyright (C) 2012-2021 Yann Collet
->>>>>>> Stashed changes
 
 BSD 2-Clause License (https://www.opensource.org/licenses/bsd-license.php)
 
